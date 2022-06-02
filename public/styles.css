@@ -1,0 +1,726 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+.navbar {
+    border-bottom-style: solid;
+    border-bottom-color: #315343;
+    width: 100%;
+    border-bottom-width: 3px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #315343 !important;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #315343 !important;
+    cursor: pointer;
+}
+
+.account-auth-login {
+    border: 1px solid #315343;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.account-auth-login-white {
+    border: 1px solid #315343;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.account-auth-login-white:hover {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #315343 !important;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.account-auth-login:hover {
+    border: 1px solid #315343;
+    background-color: #315343;
+    color: white !important;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.account-auth-register {
+    background-color: #315343;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+.account-auth-register:hover {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.nav-link1 {
+    color: rgba(136, 136, 136, 1);
+}
+.nav-link1:hover{
+    color: #315343;
+}
+.nav-link1:hover::after{
+    content:'';
+    display: block;
+    border-bottom: 7px solid #315343;
+    width: 7px;
+    margin: auto;  
+}
+
+.nav-link2 {
+    color: black;
+}
+
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.menu-contact-us {
+    margin-right: 140px;
+}
+
+.our-campaign {
+    font-weight: 500;
+    color: white !important;
+   
+}
+
+
+.hero {
+    margin-top: 100px;
+}
+
+.nav-item {
+    text-align: left;
+    background-color: white;
+}
+
+.carousel-control.right,
+.carousel-control.left,
+.carousel .item,
+.carousel-inner,
+.carousel-inner > .item > img {
+    
+}
+
+.carousel-content {
+    position: absolute;
+    top: 55%;
+    left: 23%;
+    z-index: 20;
+    font-size: 3vw;
+    text-align: center;
+    color: #28a745;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    transform: translate(-50%, -50%);
+  }
+
+  /* @media only screen and (max-width: 1400px) {
+    #responsive-product-menu {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+
+    @media only screen and (max-width: 992px) {
+        #responsive-product-menu {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            #responsive-product-menu {
+                flex: 0 0 auto;
+                width: 100%;
+            } */
+
+hr {
+    margin: 0px;
+}
+
+#id {
+    margin-bottom: 65px;
+}
+
+/* hero */
+
+@media (max-width: 991px) {
+    #our-campaign {
+        
+    }
+}
+
+/* footer */
+footer {
+    padding-top: 100x;
+}
+
+footer a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer-title {
+    font-weight: 600;
+    color: #28a745 !important;
+    text-decoration: none;
+    font-size: 55px;
+}
+
+/* .our-campaign */
+.img-penulis {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    margin-left: 0px !important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.img-our-partner {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+.p-text {
+    font-size: 13px;
+    margin-bottom: 2px;
+    color: black;
+}
+.p-text:hover {
+    text-decoration: underline;
+    color: white;
+}
+.p-teks {
+    font-size: 18px;
+    margin-bottom: 2px;
+    
+}
+
+.title-text {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+.title-text:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.img-header-campaign {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.horizontal-scrollable > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+.horizontal-scrollable > .row::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-scrollable > .row > .col-lg-4 {
+    display: inline-block;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.border-right {
+    border-right: 1px solid #b1b1b1;
+}
+
+.img-border {
+    border-radius: 5px;
+}
+
+.adv-border {
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.normal-anchor {
+    color: black;
+    text-decoration: none;
+}
+
+/* contact */
+
+.img-header-contact {
+    width: 100%;
+    height: 450px;
+}
+
+input {
+    font-size: 14px !important;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+:-moz-placeholder {
+    font-size: 14px;
+}
+
+::-moz-placeholder {
+    font-size: 14px;
+}
+.our-partners {
+    margin-left: 2.33333333%;
+    
+}
+.lazismu {
+    width: 17.4%;
+}
+.our-product {
+    margin-top: 30px !important;
+}
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 24px;
+    right: 0;
+    height: 448px;
+    width: 340px;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54));
+  }
+.row-image:hover .overlay {
+    opacity: 1;
+
+}
+.text1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 320px;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  } 
+ /* .image_content{ ini keep aja dulu klas jgn di delete
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.54); 
+  color: #f1f1f1;
+  width: 340px;
+  padding: 20px;
+  padding-top: 320px;
+  
+} 
+.image_content:hover{
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.54); 
+  color: #f1f1f1;
+  width: 340px;
+  padding: 20px;
+  padding-top: 320px;
+}  */
+
+
+      
+.info {height: 448px; width: 340px; background: black; opacity: 0.6; color: #fff; font-weight: normal; transition: transform 0.5s; position: relative;padding: 20px; padding-top: 130px;}
+.over {position: absolute; margin-top:100px; text-align: left; display: none;}
+.semua {padding-top: 20px; overflow: hidden; height: 448px; width: 340px;}
+.semua .image { width: 340px; height: 448px}
+.semua:hover .info {transform: translateY(-448px);}
+.semua:hover .over {display: flex;}
+.image{
+    max-width: 340px !important;
+    min-height: 340px !important;
+}
+
+.card-text {
+    font-size: 24px;
+    font-weight: 700px !important;
+    margin-top: 12px;
+}
+.card-caption{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(68, 68, 68, 1);
+    margin-top: 24px;
+}
+
+/* contact-us */
+.heading{
+    font-weight: 400; 
+    color: #517061;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading1{
+    font-size:20px;
+    color:#4e4e4e;
+    font-weight: 100;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading2{
+    font-weight: 500; 
+    color: #517061;
+    font-size: 3.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading3{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon1{
+    font-size: 40px;
+    color:#517061;
+   
+}
+.heading4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 1.75rem;
+    color:#517061;
+}
+
+/* about us */
+.semua .image {
+    width: 100%;
+}
+.card-img-top{
+    width: 95%;
+}
+.image_row{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/daun.png);
+    height: 700px;
+    background-size: cover;
+    position: relative;
+}
+.display-4{
+    color: white;
+    font-size: 78.6px;
+    font-weight: 500;
+}
+.image_row .display-4 {
+    text-align: center;
+    margin-top: 355px;
+    text-shadow: 1px rgba(0, 0, 0, 0.6);
+}
+.product_page{
+    height: 100%;
+}
+.carouselheader{
+    font-size: 78.6px;
+}
+.carouselparagraph{
+    font-size: 21.6px;
+}
+
+@media (max-width: 767.98px) { 
+     /* navbar */
+    .account-auth-login{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .account-auth-register{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    /* header */
+    .carouselheader{
+        font-size: 28px;
+    }
+    .carouselparagraph{
+        font-size: 12px;
+    }
+    /* order */
+    .order_btn{
+        width: 300px;
+    }
+    .product_page{
+        height: 335px !important;
+    }
+    .contact_details{
+        width: 50%;
+    }
+    .heading2{
+        font-size: 2.75rem;
+    }
+    .contact_us{
+        padding-bottom: 0px !important;
+    }
+    .have{
+        margin-top: 90px;
+    }
+    .display-4{
+        font-size: 30px;
+    }
+    .image_row .display-4 {
+        text-align: center;
+        margin-top: 195px;
+        text-shadow: 1px rgba(0, 0, 0, 0.6);
+    }
+    .aboutus3{
+        padding: 20px !important;
+    }
+    .aboutus2{
+        font-size: 36px !important;
+        padding-top: 30px;
+    }
+
+    .aboutus1{
+        padding: 0px !important;
+    }
+    .image_row{
+        height: 335px;
+    }
+    .logo {
+        width: 21%;
+    }
+    .d-block {
+        height: 335px !important;
+    }
+    .carousel-caption {
+        font-size: 11px;
+        margin-left: -30px !important;
+        top: 30% !important;
+        height: 40px;
+    }
+
+    .text-tengah {
+        text-align: center;
+        font-size: 20px !important;
+        margin-top: 20px;
+    }
+
+    .button-responsif {
+        font-size: 10px;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+        border-radius: 4px !important;
+    }
+
+    .carousel-caption .a {
+        padding-top: 0.5rem!important;
+        padding-bottom: 0.5rem!important;
+        padding-right: 0.5rem!important;
+        padding-left: 0.5rem!important;
+    }
+
+    .our-partners {
+        margin-left: 0 !important;
+    }
+    
+    .footer-title {
+        font-size: 10vw !important;
+    }
+    .company {
+        margin-top: 10px;
+        color: #28a745;
+    }
+    #our-campaign {
+        width: 93%;
+        margin: 10px;
+    }
+    .our-product {
+        margin: 10px !important;
+    }
+    .lazismu {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .about-us1{
+        width: 382px !important;
+        margin-bottom: 20px;
+    }
+    .about-us2 {
+        font-size: 30px !important;
+    }
+ }
+
+* {
+box-sizing: border-box;
+}
+
+.row > .column {
+padding: 0 8px;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column {
+float: left;
+width: 25%;
+}
+
+/* The Modal (background) */
+/* .modal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 100px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: linear-gradient(rgba(0, 0, 0, 0.5));
+} */
+
+/* Modal Content */
+.modal-content {
+position: relative;
+background-color: #fefefe;
+margin: auto;
+padding: 0;
+width: 90%;
+max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+color: white;
+position: absolute;
+top: 10px;
+right: 25px;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #999;
+text-decoration: none;
+cursor: pointer;
+}
+
+.mySlides {
+display: none;
+}
+
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+img {
+margin-bottom: -4px;
+}
+
+.caption-container {
+text-align: center;
+background-color: black;
+padding: 2px 16px;
+color: white;
+}
+
+.demo {
+opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+img.hover-shadow {
+transition: 0.3s;
+}
+
+.hover-shadow:hover {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media only screen and (min-width: 768px) {
+    #home-carrousel-responsive {
+        height: 460px;
+    }
+}
